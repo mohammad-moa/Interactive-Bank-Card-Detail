@@ -157,3 +157,13 @@ button {
 }
 
 /* Mobile Styles */
+
+@media only screen and (max-width:480px) {
+    .items-bank-card {
+        width: 370px;
+    }
+
+    .content-form {
+        width: 370px;
+    }
+}
