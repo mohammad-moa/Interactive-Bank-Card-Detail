@@ -88,5 +88,72 @@ button {
     font-size: 15px;
 }
 
+.total-box-form-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    background-color: var(--dark-blue);
+}
+
+.content-form {
+    width: 430px;
+}
+
+.total-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.total-form input {
+    border: 0;
+    color: var(--dark-blue);
+    padding: 8px 12px;
+    box-sizing: border-box;
+    margin: 12px 0;
+    font-family: "Vazirmatn", sans-serif;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 48%;
+    direction: ltr;
+}
+
+.total-form .form-person {
+    direction: rtl;
+}
+
+.form-other-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.form-month-expiration_date,
+.form-year-expiration_date {
+    width: 83px !important;
+}
+
+.line-between-expiration_date {
+    background-color: var(--light-blue);
+    width: 3px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(20deg);
+}
+
+.total-form .submit-btn {
+    background-color: var(--light-blue);
+    color: var(--dark-blue);
+    border: 0;
+    width: 100%;
+    padding: 5px 10px;
+    cursor: pointer;
+}
 
 /* Mobile Styles */
